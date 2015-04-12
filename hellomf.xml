@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="37">
-            <field name="TEXT">hi i am bob</field>
+            <field name="TEXT">why did the chicken cross the play ground ?</field>
             <next>
               <block type="robot_delay" id="48" inline="true">
                 <value name="DELAY">
@@ -38,7 +38,7 @@
                         </value>
                         <next>
                           <block type="oled_drawtext" id="99">
-                            <field name="TEXT">how are you?</field>
+                            <field name="TEXT">to get  to the other slide !</field>
                           </block>
                         </next>
                       </block>
