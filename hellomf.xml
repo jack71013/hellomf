@@ -1,1 +1,55 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_cleardisplay" id="19" x="102" y="36">
+    <next>
+      <block type="oled_setcursor" id="28" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="91">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="92">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_drawtext" id="37">
+            <field name="TEXT">hi i am bob</field>
+            <next>
+              <block type="robot_delay" id="48" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="93">
+                    <field name="NUM">3000</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_cleardisplay" id="84">
+                    <next>
+                      <block type="oled_setcursor" id="96" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="97">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="98">
+                            <field name="NUM">20</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawtext" id="99">
+                            <field name="TEXT">how are you?</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
